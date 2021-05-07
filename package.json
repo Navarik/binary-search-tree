@@ -1,6 +1,6 @@
 {
-  "name": "binary-search-tree",
-  "version": "0.2.6",
+  "name": "@navarik/binary-search-tree",
+  "version": "0.9.0",
   "author": {
     "name": "Louis Chatriot",
     "email": "louis.chatriot@gmail.com"
@@ -12,17 +12,17 @@
     "self-balancing",
     "AVL tree"
   ],
-  "homepage": "https://github.com/louischatriot/node-binary-search-tree",
+  "homepage": "https://github.com/TICitHub/binary-search-tree",
   "repository": {
     "type": "git",
-    "url": "git@github.com:louischatriot/node-binary-search-tree.git"
+    "url": "git@github.com:TICitHub/binary-search-tree.git"
   },
   "dependencies": {
-    "underscore": "~1.4.4"
+    "underscore": "^1.13.1"
   },
   "devDependencies": {
-    "chai": "1.0.x",
-    "mocha": "1.4.x"
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
   },
   "scripts": {
     "test": "make test"
